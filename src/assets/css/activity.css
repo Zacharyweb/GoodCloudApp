@@ -1,0 +1,63 @@
+.manage-container{
+
+}
+.manage-container #myTabContent .myTab-list{
+  padding: 0px;
+}
+.manage-container #myTabContent .myTab-list li{
+  margin-top: 10px;
+  background: #fff;
+  padding: 0px 18px 8px;
+}
+.manage-container #myTabContent .myTab-list li.list-active .title{
+  color: #333;
+  font-weight: bold;
+  border-bottom: 0;
+}
+.manage-container #myTabContent .myTab-list li.list-active .list-active-show{
+  display:inline-block;
+  position: absolute;
+  left: 5px;
+}
+.manage-container #myTabContent .myTab-list li .list-active-show{
+  display: none;
+  float: left;
+
+}
+.manage-container #myTabContent .myTab-list .title{
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+  border-bottom: 1px solid #EBEBEB;
+}
+.manage-container #myTabContent .myTab-list .title span{
+  color: #999;
+}
+/*.manage-container #myTabContent .myTab-list li .myTab-list-content{
+  margin-top: 15px;
+}*/
+.manage-container #myTabContent .myTab-list li .myTab-list-content .myTab-list-content-title{
+  padding: 15px 0px;
+  color: #333;
+  font-weight: bold;
+  margin-left: 22px;
+  font-size: 15px;
+}
+.manage-container #myTabContent .myTab-list li .myTab-list-content p{
+  font-size:12px ;
+}
+.manage-container #myTabContent .myTab-list li .myTab-list-content .icon{
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  display: inline-block;
+  background-size: 100% 100%;
+  vertical-align: middle;
+}
+.icon-mark{
+  background: url("../img/mark.png") no-repeat;
+}
+.icon-clock{
+  background: url("../img/clock.png") no-repeat;
+}

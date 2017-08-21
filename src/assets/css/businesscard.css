@@ -1,0 +1,177 @@
+.businesscard-container{
+
+}
+.businesscard-container .top-danger{
+  background: #fff;
+  display: flex;
+  padding:15px 9px;
+  border-bottom:#e5e5e5 1px solid;
+  align-items: center;
+  justify-content: center;
+}
+.businesscard-container .top-danger .icon-danger{
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  margin-right: 10px;
+  background: url("../img/danger.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.businesscard-container .top-danger .danger-text{
+  color: #999999;
+  font-size: 13px;
+}
+.businesscard-container .card-content{
+  margin-top: 10px;
+  background: #fff;
+}
+.businesscard-container .card-content .new-list-group{
+  border-top:1px #e5e5e5 solid;
+  border-bottom:1px #e5e5e5 solid ;
+
+}
+.businesscard-container .card-content .new-list-group li{
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0!important;
+  border-top:#f5f5f5 1px solid;
+  display: flex;
+}
+.businesscard-container .card-content .new-list-group li:first-child{
+  border-top:0;
+}
+.businesscard-container .card-content .new-list-group li span{
+  display: inline-block;
+}
+.businesscard-container .card-content .new-list-group li .list-title{
+  width: 80px;
+  color: #333;
+  font-size: 15px;
+}
+.businesscard-container .card-content .new-list-group li .list-content{
+  flex: 1;
+  color: #999;
+  font-size: 15px;
+}
+.businesscard-container .card-content .new-list-group li .list-back{
+  width: 13px;
+  height: 22px;
+  background: url("../img/back.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+li.head-icon{
+  padding:15px;
+}
+.businesscard-container .card-content .new-list-group li.head-icon .hide{
+  width: 0;
+  height: 0;
+  opacity:0;
+}
+.businesscard-container .card-content .new-list-group li.head-icon span.list-content{
+  /*display: inline-block;
+  padding: 42px 0;
+  margin-left: 42px;*/
+}
+.businesscard-container .card-content .new-list-group li.head-icon span.phone-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-size:15px;
+  line-height: 70px;
+}
+.businesscard-container .card-content .new-list-group li.head-icon span.phone-icon img{
+  width: 100%;
+  height: 100%;
+}
+.businesscard-container .card-content .new-list-group li.Myself{
+  min-height: 100px;
+}
+.businesscard-container .card-content .new-list-group li.Myself span.list-content{
+  display: inline-block;
+  font-size:15px;
+}
+.list-content-flex{
+  color: #ccc!important;
+  display: flex!important;
+  align-items: center!important;;
+}
+.list-content-flex.flex-center{
+  justify-content:center;
+}
+.businesscard-container .card-content .new-list-group li.Myself span.list-back{
+  display: inline-block;
+  margin-top: 29px ;
+}
+
+.businesscard-container .card-content .new-list-group li .control-button-left{
+  /*background: #37bc9b;
+  margin:9px 9px 10px 9px;
+  height: 46px;
+  width:50%;
+  text-align: center;
+  color:#fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 14px;*/
+  width:50%;
+  padding: 9px 9px 10px 9px;
+}
+.businesscard-container .card-content .new-list-group li .control-button-right {
+  /*background: #eee;
+  margin:9px 9px 10px 9px;
+  height: 45.5px;
+  width:50%;
+  text-align: center;
+  color:#fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 14px;*/
+  width:50%;
+  padding: 9px 9px 10px 9px;
+}
+.businesscard-container .car-show{
+  background: #fff;
+  padding-top: 14px;
+  border-top:#f5f5f5 1px solid;
+  border-bottom:#e6e6e6 1px solid;
+}
+.businesscard-container .car-show h3{
+  height: 34px;
+ margin: 0;
+}
+.businesscard-container .car-show h3 span.color{
+  display: inline-block;
+  width: 5px;
+  height: 17px;
+  background:#37bc9b;
+}
+.businesscard-container .car-show h3 span.examples{
+  font-size: 16px;
+  color: #999;
+}
+.businesscard-container .car-show h3 span.fail{
+  font-size: 13px;
+  color:#000;
+}
+.businesscard-container .car-show p.reason{
+  margin-top: 20px;
+  margin-left:7%;
+  margin-right:7%;
+}
+/*预览*/
+.preview{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,.5);
+}
+.preview .card{
+  width: 100%;
+  position: absolute;
+  top:50%;
+  /*left: 50%;*/
+  transform: translateY(-50%);
+}

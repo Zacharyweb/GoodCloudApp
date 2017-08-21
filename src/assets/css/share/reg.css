@@ -1,0 +1,43 @@
+.share-container{
+  padding:79px 38px 0px;
+  min-height: 290px;
+}
+.share-container .share-container-title{
+  color: #37BC9B;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.share-container .share-container-text{
+  color: #999;
+}
+#shareSuccess .share-container{
+  min-height: inherit;
+  padding: 79px 8px 53px;
+}
+#shareSuccess .share-container-text{
+  line-height: 25px;
+  padding-bottom: 38px;
+  border-bottom: 1px solid rgba(55,188,155,.1);
+}
+#shareSuccess .download-container .download-img{
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin: 0px auto 6px;
+}
+#shareSuccess .download-container .download-title{
+  color: #37BC9B;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 32px;
+}
+#shareSuccess .download-container .btn-green{
+  font-size: 18px;
+  height: 46px;
+}
+#shareSuccess .download-container .btn-icon{
+  margin-right: 18px;
+  font-size: 20px;
+}
+

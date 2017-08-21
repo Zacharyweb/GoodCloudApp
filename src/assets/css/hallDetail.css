@@ -1,0 +1,254 @@
+.ykl-layout {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.panorama-img-wrapper{
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 0;
+  flex:1;
+  overflow: hidden;
+}
+
+.panorama-msg{
+  position: absolute;
+  top:75px;
+  left:15px;
+  display: flex;
+  align-items: center;
+  width: 204px;
+  height: 44px;
+  background-color: rgba(53,53,53,0.6);
+  border-radius: 3px;
+}
+.panorama-msg img{
+  width: 44px;
+  height: 44px;
+  border-radius: 3px;
+}
+.panorama-msg div{
+  flex: 1;
+  color: #fff;
+  padding-left: 7px;
+  overflow: hidden;
+}
+.panorama-msg div .panorama-title{
+  width: 145px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.panorama-msg div .panorama-shop{
+  font-size: 12px;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.users-action{
+  position: absolute;
+  top:80px;
+  right: 15px;
+}
+.users-action p{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(53,53,53,0.7);
+  margin-bottom: 7px;
+  color:#fff;
+  font-size: 16px;
+  line-height: 34px;
+}
+.users-action p span{
+  padding-left: 6px;
+}
+.users-action p .iconfont{
+  font-size: 20px;
+}
+.users-action p .VR-text{
+  font-size: 13px;
+  padding-left: 0;
+}
+.users-action .VR-btn-wrapper{
+  line-height: 32px;
+  text-align: center;
+}
+.users-action p span.active{
+  color: #CDB283;
+}
+
+.flash-dot-outer{
+  position: absolute;
+  top:280px;
+  left: 90px;
+  width: 25px;
+  height: 25px;
+  background-color: rgba(255,153,100,0.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: dotscale 0.5s  infinite;
+}
+.flash-dot-outer .flash-dot-center{
+  width: 18px;
+  height: 18px;
+  background-color:  rgba(255,153,100,0.6);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flash-dot-outer .flash-dot-inner{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color:rgba(255,153,100,0.9);
+}
+@keyframes dotscale{
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.1);
+  }
+}
+
+.photo-swiper-wrapper{
+  top:0;
+}
+.dot-video-layer-wrapper{
+
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10003;
+  opacity: 1;
+}
+.dot-video-layer{
+  max-width: 640px;
+  min-width: 300px;
+  background: #fff;
+  height: 100%;
+  margin:0 auto;
+}
+
+.video-layer-slide-enter-active {
+  transition: all .5s ease;
+}
+.video-layer-slide-leave-active {
+  transition: all .3s ease;
+}
+.video-layer-slide-enter,
+.video-layer-slide-leave-active {
+  opacity: 0;
+}
+/*选择房间浮层*/
+.select-room-wrapper{
+  position: fixed;
+  bottom: 108px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.select-room-wrapper .select-room-layer{
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+  background-color: rgba(53, 53, 53, 0.7);
+  overflow: hidden;
+  display: none;
+}
+.select-room-wrapper .select-room-layer ul{
+  padding: 7px 7px 0px 7px;
+  font-size: 0;
+}
+.select-room-wrapper .select-room-layer ul li{
+  width: 155px;
+  padding-top: 3px;
+  margin-right: 7px;
+}
+.select-room-wrapper .select-room-layer li img{
+height: 80px;
+  width: 100%;
+}
+.select-room-wrapper .select-room-layer li p{
+  text-align: center;
+  line-height: 28px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+.select-room-wrapper .select-room-layer li.active{
+  padding-top: 0;
+  margin-right: 11px;
+}
+.select-room-wrapper .select-room-layer li.active img{
+  border:3px solid #ff906a;
+  height: 86px;
+}
+.select-room-wrapper .select-room-layer li.active p{
+  color:#ff906a;
+  padding-left: 3px;
+}
+.select-room-btn{
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 50%;
+  bottom: -84px;
+  transform: translateX(-50%);
+  border:2px solid rgba(193,167,123,0.5);
+  border-radius: 50%;
+}
+.select-room-btn span{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border:2px solid rgba(255,255,255,0.7);
+  border-radius: 50%;
+  background-color: rgba(193,167,123,0.7);
+  color: #fff;
+  line-height: 64px;
+  text-align: center;
+}
+.select-room-btn span .iconfont{
+  font-size: 24px;
+}
+.select-room-btn span .icon-guanbi{
+  line-height: 60px;
+}
+.select-room-btn span.icon-rotate-s{
+  animation: iconrotates .2s steps(60);
+}
+@keyframes iconrotates{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}
+.select-room-btn span.icon-rotate-n{
+  animation: iconrotaten .2s  steps(60);
+}
+@keyframes iconrotaten{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(-180deg);
+  }
+}

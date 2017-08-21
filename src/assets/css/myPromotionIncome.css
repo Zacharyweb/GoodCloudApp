@@ -1,0 +1,256 @@
+.navbar{
+	border-bottom: 1px solid #f5f5f5;
+	background-color: #fff;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	z-index: 1001;
+}
+.temp-wrapper{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.promotion{
+	background-color: #f5f5f5;
+	padding: 0 3.2%;
+	padding-top: 105px;
+	padding-bottom: 30px;
+	flex: 1;
+	overflow: scroll;
+}
+.promotion .font-red{
+	color: #e94f4f;
+}
+.promotion .font-green{
+	color: #37bc9b!important;
+	font-size: 40px!important;
+}
+.promotion .font-grey{
+	color: #cccccc;
+}
+.promotion .my-promotion{
+	position: relative;
+	height: 102px;
+	background-color: #fff;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	padding-left: 23.28%;
+	box-shadow: 0 10px 8px  #d0e9e3;
+}
+.promotion .label-icon{
+	position: absolute;
+	width: 41px;
+	height: 21px;
+	background-color: #37bc9b;
+	border-radius: 0 11.5px 11.5px 0;
+	padding-left: 7.5px;
+	color: #fff;
+	font-size: 11px;
+	line-height: 21px;
+	top:7px;
+	left:-2.5px;
+}
+.promotion .ranking-num{
+	font-size: 30px;
+}
+.promotion .my-promotion .my-avatar,
+.promotion .others-avatar{
+	width: 56px;
+	height: 56px;
+	border-radius: 5px;
+	margin-right: 13.57%;
+}
+.promotion .others-avatar{
+	margin-right: 11.21%;
+}
+.promotion .my-promotion-result p,
+.promotion .others-promotion-result p{
+	margin:0;
+}
+.promotion .my-promotion-result .nick-name,
+.promotion .others-promotion-result .nick-name{
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.promotion .my-promotion-result .nick-name{
+	padding-top: 8px;
+	line-height: 1;
+}
+.promotion .my-promotion-result .my-achivement,
+.promotion .others-promotion-result .others-achivement{
+	color:#999;
+}
+.promotion .my-promotion-result .my-achivement{
+	margin-top: 8px;
+	line-height: 1;
+}
+.promotion  .icon-iconset0399{
+	color:#fb7959;
+	font-size: 17px;
+	padding-right: 18px;
+}
+.promotion  .my-bonus .icon-tishi{
+	font-size: 14px;
+}
+.promotion .ranking-list-wrapper{
+	padding: 17px 3px;
+}
+.promotion .ranking-list{
+	padding: 0 10px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.promotion .ranking-list li+li{
+	border-top: 1px solid #ebebeb;
+}
+.promotion  .ranking-list-item{
+	display: flex;
+	height: 80px;
+	align-items: center;
+}
+.promotion .ranking-list-item .ranking-num{
+	width: 21.24%;
+	text-align: center;
+}
+#totalPromotion{
+	padding-left:0;
+	padding-right:0;
+}
+#todayPromotion .font-green{
+	text-shadow: 0px 0px 6px  #37bc9b;
+}
+#totalPromotion .my-promotion{
+	border-radius: 0;
+	padding-left: 21.9%;
+}
+#totalPromotion .ranking-list{
+	padding: 0 22px;
+	border-radius: 0;
+}
+#totalPromotion .ranking-list-item .ranking-num{
+	width: 21.18%;
+}
+#totalPromotion .my-promotion .my-avatar{
+    margin-right:12.48%
+}
+#totalPromotion .others-avatar{
+	margin-right: 11.18%;
+}
+
+
+#incomeDetails{
+	background-color: #f5f5f5;
+	padding-top: 95px;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	overflow: scroll;
+}
+#incomeDetails .font-grey{
+	color: #999999;
+}
+#incomeDetails .font-red{
+	color: #e94f4f;
+}
+#incomeDetails .font-green{
+	color: #37bc9b;
+}
+#incomeDetails .my-income-msg{
+	background-color: #fff;
+	text-align: center;
+}
+#incomeDetails .my-income-msg p,
+#incomeDetails .my-income-msg h4{
+	margin:0;
+}
+#incomeDetails .my-income-msg .my-achivement{
+	padding-top: 24px;
+	margin-bottom: 13px;
+	font-size: 16px;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#incomeDetails .my-income-msg .my-achivement .icon-tishi{
+	font-size: 14px;
+	color:#ccc;
+}
+#incomeDetails .my-income-msg .get-bonus-text{
+	color: #999;
+	margin-bottom: 10px;
+	line-height: 1;
+}
+#incomeDetails .my-income-msg .get-bonus-num{
+	font-size: 24px;
+	color: #e94f4f;
+	line-height: 1;
+	padding-bottom: 20px;
+}
+#incomeDetails .transaction-record{
+	flex: 1;
+	padding:0 2.67%;
+}
+#incomeDetails .transaction-record-title{
+	height: 28px;
+	line-height: 28px;
+	font-size: 11px;
+	color:#999999;
+	margin-bottom: 0;
+}
+#incomeDetails .transaction-record-list{
+	padding-left: 0;
+}
+#incomeDetails .transaction-record-list li{
+	height: 60px;
+	border-radius: 4px;
+	background-color: #fff;
+	padding-top: 10px;
+	padding-left: 10px;
+	position: relative;
+	font-size: 13px;
+}
+#incomeDetails .transaction-record-list li+li{
+	margin-top: 10px;
+}
+#incomeDetails .transaction-record-list li .consumer-behavior{
+	margin-bottom: 6px;
+}
+#incomeDetails .transaction-record-list li .my-score{
+	width: 71%;
+	display: flex;
+	justify-content: space-between;
+}
+#incomeDetails .wait-turn-text{
+   position: absolute;
+   font-size: 12px;
+   bottom: 10px;
+   right: 7.5px;
+}
+#incomeDetails .apply-turn-text{
+   position: absolute;
+   font-size: 12px;
+   bottom: 8px;
+   right: 7.5px;
+   padding: 2px 3px;
+   border: 1px solid #37bc9b;
+   border-radius: 2px;
+}
+#incomeDetails .success-turn-text{
+   box-sizing: border-box;
+   width: 21px;
+   position: absolute;
+   font-size: 12px;
+   padding: 14px 0 0 5px;
+   color: #fff;
+   background-color: #999999;
+   height: 100%;
+   top:0;
+   right: 0;
+   border-radius: 0 4px 4px 0;
+}

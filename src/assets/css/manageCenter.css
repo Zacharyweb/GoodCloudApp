@@ -1,0 +1,146 @@
+.icon{
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  /*vertical-align: middle;*/
+  margin-right: 9px;
+  background-size: 100% 100%!important;
+}
+.icon-phone{
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background: url("../img/phone.png") no-repeat center center;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+.icon-right{
+  width: 7px;
+  height: 12px;
+  display: inline-block;
+  background: url("../img/right.png") no-repeat center center;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+.icon-1{
+  background: url("../img/1.png") no-repeat center center;
+}
+.icon-2{
+  background: url("../img/2.png") no-repeat center center;
+}
+.icon-3{
+  background: url("../img/3.png") no-repeat center center;
+}
+.icon-4{
+  background: url("../img/4.png") no-repeat center center;
+}
+.icon-5{
+  background: url("../img/5.png") no-repeat center center;
+}
+.icon-6{
+  background: url("../img/6.png") no-repeat center center;
+}
+.icon-7{
+  background: url("../img/7.png") no-repeat center center;
+}
+.icon-8{
+  background: url("../img/8.png") no-repeat center center;
+}
+.icon-9{
+  background: url("../img/9.png") no-repeat center center;
+}
+.manageCenter-container{
+
+}
+.manageCenter-container .people{
+  background: #39BD9C;
+  padding: 17px;
+  position: relative;
+}
+.manageCenter-container .people .people-img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.manageCenter-container .people .people-img img{
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border:5px #81D4BF solid;
+  margin-right: 15px;
+}
+.manageCenter-container .people .people-information{
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+}
+.manageCenter-container .people .people-information .name{
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+.manageCenter-container .people .people-information .phone{
+  font-size: 14px;
+}
+.manageCenter-container .people .people-editor{
+  display: inline-block;
+  vertical-align: middle;
+}
+.manageCenter-container .people .people-editor{
+  position: absolute;
+  right: 17px;
+  top:50%;
+  transform: translateY(-50%);
+  color: #FEFEFE;
+}
+.manageCenter-container .current{
+  margin: 10px;
+  border-radius: 3px;
+  padding: 10px 20px;
+  background: #fff;
+  border-left: 5px  #37BC9B solid;
+}
+.manageCenter-container .current ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.manageCenter-container .current ul li{
+  margin-bottom: 19px;
+}
+.manageCenter-container .current ul li:last-child{
+  margin-bottom: 0;
+}
+.manageCenter-container .current .current-lable{
+  display: inline-block;
+  width: 110px;
+  color: #333333;
+  font-size: 16px;
+}
+.manageCenter-container .current .current-text{
+  font-size: 14px;
+  color: #999;
+}
+.manageCenter-container .permissions{
+
+}
+.manageCenter-container .permissions ul{
+  background: #fff;
+  padding-left: 10px;
+  margin-bottom: 16px;
+}
+.manageCenter-container .permissions ul li{
+  border-top:0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px #EBEBEB solid;
+  height: 45px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #333;
+  background: url("../img/back.png") no-repeat 95% center;
+  background-size: 7px 12px;
+}
+.manageCenter-container .permissions ul li:last-child{
+  border-bottom: 0;
+}

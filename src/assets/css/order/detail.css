@@ -1,0 +1,206 @@
+ul{
+  padding: 0;
+  margin: 0;
+}
+input:focus,
+textarea:focus{
+  outline: none;
+}
+.orderDetail-container .information{
+  background: #fff;
+  padding: 0px 0px 0px 27px;
+}
+.orderDetail-container .information li{
+  float: left;
+  border-bottom: 1px #e5e5e5 solid;
+  padding: 15px 14px 15px 0;
+  display: flex;
+}
+.orderDetail-container .information li.width100{
+  width: 100%;
+  margin-left: 0;
+}
+.orderDetail-container .information li.width50{
+  width: 45%;
+  height: 50px;
+}
+
+.orderDetail-container .information li.width50:nth-child(even){
+  margin-right: 5%;
+}
+.orderDetail-container .information li.width50:nth-child(odd){
+  margin-left: 5%;
+}
+
+.orderDetail-container .information .information-title{
+  font-size: 15px;
+  min-width: 50px;
+}
+.orderDetail-container .information .text-middle{
+  line-height: 37px;
+}
+.orderDetail-container .information .information-content{
+  color: #808080;
+  flex: 1;
+  text-align: right;
+  font-size: 15px;
+}
+
+.orderDetail-container .information li:first-child .information-content{
+  color: #1A1A1A;
+}
+.orderDetail-container .information .information-content .icon{
+  color: #B3B3B3;
+}
+.orderDetail-container .information .information-content img{
+  width: 37px;
+  height: 37px;
+  vertical-align: middle;
+  margin-left: 13px;
+}
+.orderDetail-container .information .information-content input,
+.orderDetail-container .information .information-content textarea{
+  width: 100%;
+  resize:none;
+}
+.pay{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:50px ;
+/*  line-height: 50px;
+  text-align: center;
+  font-size: 18px;*/
+}
+.pay.btnWhiteRed{
+  border: 0;
+  border-top: 1px #E6E6E6 solid;
+}
+/*.not{
+  background:#37BC9B ;
+  color: #FFFEFE;
+  border-top: 1px #37BC9B solid;
+}
+.already{
+  background:#fff ;
+  color: #E60012;
+  border-top: 1px #E6E6E6 solid;
+}*/
+.tab-pane ul li{
+  padding:15px 27px;
+  color: #333;
+  font-size: 16px;
+}
+.tab-pane ul li.title{
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+}
+.tab-pane ul li:nth-child(odd){
+  background: #EBEBEB ;
+}
+.tab-content ul li>span{
+  width: 49%;
+  display: inline-block;
+}
+.tab-content ul li.active{
+  background-repeat:no-repeat;
+  background-position: 65% 50% ;
+  background-size:52px 37px;
+}
+.tab-content #browse ul li.active{
+  background-image:url("../../../assets/img/win.png");
+}
+.tab-content #duplicate ul li.active{
+  background-image:url("../../../assets/img/free.png");
+}
+.tab-content ul li:last-child{
+  border-bottom: 1px #E6E6E6 solid;
+}
+
+.switch-tab{
+  width: 237px;
+  height:30px ;
+  margin:18px auto;
+  /*border-bottom: 0;*/
+  border:1px #848484 solid;
+  border-radius: 4px;
+  /*overflow: hidden;*/
+}
+.switch-tab>li, .switch-tab>li>a{
+  position:inherit;
+}
+.switch-tab>li{
+  width: 50%;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 0px;
+  border:0;
+}
+.switch-tab>li.active{
+  background: #848484;
+}
+.switch-tab>li>a{
+  padding: 0px;
+  height: 28px;
+  line-height: 28px;
+  color: #848484;
+  border:0;
+  margin-bottom: 0px;
+  display: block;
+}
+.switch-tab>li.active>a, .switch-tab>li.active>a:focus, .switch-tab>li.active>a:hover{
+  border:0;
+  background: #848484;
+  color: #fff;
+  margin-right:0;
+}
+.orderDetail-container .information li label{
+  color: #1A1A1A;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.orderDetail-container .information li label:first-child{
+  flex:1;
+}
+.orderDetail-container .information li label:last-child{
+  width: 45%;
+}
+.orderDetail-container .information li label .icon{
+  margin-left: 6px;
+  color: #B3B3B3;
+}
+.tab-pane ul li{
+  position: relative;
+}
+.radio{
+  outline: none;
+  margin: 0;
+}
+.radio input{
+  position: absolute;
+  margin-left: 0;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity:0;
+}
+.radio i{
+  display: inline-block;
+  width: 23px;
+  height:23px;
+  vertical-align: middle;
+  margin-right: 7px;
+  background: url("../../img/radio-nocheck.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.radio input:checked+i{
+  background: url("../../img/radio-checked.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.checkbox+.checkbox, .radio+.radio{
+  margin-top: 0;
+}

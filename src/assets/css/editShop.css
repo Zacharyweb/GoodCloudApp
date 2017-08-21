@@ -1,0 +1,15 @@
+ul{ padding-left: 0; margin-bottom: 0;}
+.es-text{ height: 73px;text-align: center; color: #999; padding-top:15px;}
+.editShop{ position: absolute;  top: 0;  bottom: 0;  left: 0;  right: 0;}
+.es-container{ position: absolute; top:52px; bottom: 0; left: 0; right: 0; overflow-y: scroll;}
+.es-co >li{ display: flex; height: 60px; border-bottom: 1px #E6E6E6 solid; padding: 10px 0;}
+.es-co >li:last-child{ border-bottom: 0;}
+.es-co-icon{ width:37px; text-align: right;  font-size: 20px;}
+.es-co-icon .icon{ color: #37BC9B;font-size: 20px;}
+.red-start{ color: #E94F4F; }
+.es-co-text{ flex: 1; margin-left: 16px;}
+.es-co-text .title{ color: #4D4D4D; font-size: 15px; margin-bottom: 5px; }
+.es-co-text .text{ color: #ccc; font-size: 13px;}
+.es-co-ri{ width: 30px; text-align: left;color: #ccc; font-size: 20px; line-height: 40px; height: 40px; }
+.es-co-logo{  height:121px; width: 121px; margin:5px auto; background-size: 100% 100%;}
+.es-co-logo img { width: 100%; height: 100%;}

@@ -1,0 +1,257 @@
+/*按钮*/
+
+/*登录页*/
+.login-content{
+  width: 100%;
+  overflow: hidden;
+}
+.login-content .footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 156px;
+    background: #37BC9B;
+
+}
+.login-content .footer .change{
+    margin-top: -52px;
+}
+.login-content .footer .change .change-img{
+  width: 84px;
+  height: 84px;
+  background: #fff url("../../assets/img/change.png") no-repeat center center;
+  background-size: 44px 44px;
+  border-radius: 50%;
+  margin: auto;
+}
+.login-content .footer .change .change-img.active{
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  -o-transition:all 1s;
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+}
+.amWechate{
+  /*animation:wechate 1s;
+  -webkit-animation:wechate 1s;
+  animation-fill-mode: forwards;*/
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  -o-transition:all 1s;
+  margin-left: -100%!important;
+}
+/*@keyframes wechate
+{
+  from {margin-left: 0%;}
+  to {margin-left:-100% }
+}
+
+@-webkit-keyframes wechate
+{
+  from {margin-left: 0;}
+  to {margin-left:-100%; }
+}*/
+.amPhone{
+  /*animation:phone 1s;
+  -webkit-animation:phone 1s;
+  animation-fill-mode: forwards;*/
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  -o-transition:all 1s;
+  margin-left: 0%!important;
+}
+/*@keyframes phone
+{
+  from {margin-left: -100%;}
+  to {margin-left:0; }
+}
+
+@-webkit-keyframes phone
+{
+  from {margin-left: -100%;}
+  to {margin-left:0; }
+}*/
+
+.login-content .footer .change .change-text{
+  text-align: center;
+  margin-top: 8px;
+  color: #FEFFFF;
+  font-size: 12px;
+}
+.login-content .footer .footer-text{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.login-content .login-click{
+    position: absolute;
+    top:200px;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+    background:url("../img/wechat.png") no-repeat center center;
+    background-size: 220px 179px;
+}
+.logo-content{
+    width: 100%;
+    height: 200px;
+    background:url("../img/LOGO.png") no-repeat center center;
+    background-size: 130px 78px;
+}
+.two-login{
+  width: 200%;
+  margin-left: 0;
+}
+.login-container{
+  width: 50%;
+  height: 140px;
+  float: left;
+}
+.login-container .login-img{
+  width: 130px;
+  height: 130px;
+  margin: auto;
+  display: inherit;
+
+}
+.login-container .login-img>div{
+  width: 130px;
+  height: 130px;
+  margin: auto;
+  display: inherit;
+}
+.login-container .login-img .phonetype{
+  background: url("../../assets/img/login-phone.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.login-container .login-img .wechatetype{
+  background: url("../../assets/img/login-wechat.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+/*下拉框*/
+.ui-select{
+    text-align: center;
+}
+.ui-select select{
+    opacity: 0;
+    position: absolute!important;
+    top: 0;
+}
+.ui-select div{
+    background: url("../img/back.png") no-repeat scroll right center transparent;
+    background-size: 12px 20px!important;
+    padding: 6px 12px;
+    min-height: 31px;
+}
+.ui-select .selectmodify{
+  background:none;
+}
+
+
+.apply-container .apply-content{
+    background: #fff;
+    border: 1px solid #efefef;
+    border-radius:5px ;
+    margin: 8px 13px;
+    padding: 25px 30px;
+    position: relative;
+}
+.apply-container .apply-content .logo-content{
+    height: 100px;
+}
+.apply-container .apply-content .apply-list{
+    border-radius: 0px;
+    border:0;
+    border-bottom: 1px dotted #37bc9b;
+    margin-bottom: 0px;
+    padding: 18px 0px 0px;
+}
+.apply-container .apply-content .apply-list .input-group{
+  width: 100%;
+}
+.apply-container .apply-content .apply-list .input-img{
+  font-size: 23px!important;
+  /*color: #37BC9B;*/
+}
+.apply-container .apply-content .apply-list .no-border{
+    text-align: center;
+}
+.apply-container .button-content{
+    padding: 0px;
+    margin: 10px 15px;
+}
+/*注册*/
+.reg-container{
+    padding: 10px 0px;
+}
+.reg-container .reg-content .reg-list{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: #e5e5e5 1px solid;
+    border-radius: 0;
+    height: 45px;
+}
+.reg-container .reg-content .reg-list:first-child{
+  border-bottom: #e5e5e5 1px solid;
+  margin-bottom: 0;
+}
+.reg-container .reg-content .reg-list:last-child{
+  border-bottom:0;
+}
+.reg-container .reg-content .reg-list .form-control{
+  height: 26px;
+  padding: 0px 12px;
+}
+
+.reg-container .reg-content .reg-list .reg-list-text{
+    width: 80px;
+    font-size: 15px;
+    color: #37BC9B;
+}
+.reg-container .reg-content .reg-list .mobile{
+    width: 150px;
+}
+.reg-container .reg-content .reg-list .btn-radius{
+    padding: 0px 10px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    min-width: 76px;
+    border-radius: 26px;
+}
+
+
+/*修改店铺*/
+#modifyShop .modify{
+  position: absolute;
+  right: 12px;
+  top:12px;
+  color: #37BC9B;
+  font-size: 15px;
+}
+#modifyShop .modify i{
+  margin-right: 2px;
+}
+#modifyShop .modify span{
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 350px) {
+  .reg-container .reg-content .reg-list .form-control{
+    padding: 0;
+  }
+  .reg-container .reg-content .reg-list .mobile{
+    width: 120px;
+  }
+}
+

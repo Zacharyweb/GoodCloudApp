@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>图片上传demo</title>
+    <script src="./jquery.min.js"></script>
+    <!--必须不能用jquery2.0-->
+    <link rel="stylesheet" href="./cropper.css">
+    <script src="../../js/gkee.js"></script>
+    <script src="../../js/gtr.js"></script>
+    <script src="../../js/utils.js"></script>
+    <script src="./cropper.js"></script>
+    <script src="../qCloud/crypto.js"></script>
+    <script src="../qCloud/cos-js-sdk-v4.js"></script>
+    <script src="../qCloud/qCloud.js"></script>
+    <script src="qcloud-cropper.js"></script>
+
+    <style>
+        .upload{ position: absolute; top:0;bottom: 0; left: 0; right: 0; }
+        .up-con{position: absolute;top:0;bottom: 0; left: 0; right: 0; background: #000; }
+        .up-co-img{position: absolute;top:0;bottom:60px; left: 0; right: 0; display: flex;  display: flex;  align-items: center;  justify-content: center;}
+        .buts{ position: absolute;bottom: 0; left: 0; right:0; height: 60px;}
+        .buts > div{ width: 50%; text-align: center; font-size: 20px; color: #fff; height: 60px; line-height: 60px; }
+        .lf{ float: left;}
+        .ri{ float: right;}
+    </style>
+    <script>
+        $(function(){
+            $("#btn1").click(function(){
+                $.imgUpload({
+                    callbackEle:"[name='logo'],#test1",
+                    successCallback:function(path){
+                        alert("最终回调");
+                    },
+                    cropper:true,
+                    cropperOpts: {
+                        aspectRatio: 1 / 1,//截图框的比例
+                        preview:$('.cropper-preview'),//预览框
+                        zoomable:false, //禁用鼠标滚轮放大缩小
+                        viewMode:1, //截图框只能在图片区域内移动
+                    }
+                },cos)
+            })
+
+//            $("#btn1").click(function(){
+//                $("#addAccount").modal();
+//            })
+        })
+
+    </script>
+    <style>
+
+    </style>
+</head>
+<body>
+<input  type="file" value="这是个测试">
+<input id="btn1" type="button" value="上传图片">
+<img id="test1" src="" alt="">
+<input name="logo" value="">
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+.unbundle-container{
+
+}
+.unbundle-container .unbundle-content{
+  margin-top: 10px;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px;
+  color: #333;
+  font-size: 15px;
+}
+.unbundle-container .unbundle-content p{
+  margin-bottom: 30px;
+}
+.unbundle-container .unbundle-content p:last-child{
+  margin-bottom: 0px;
+}
+.unbundle-container .buttons{
+  margin-top: 10px;
+}
+.unbundle-container .buttons >div:first-child{
+  width: 50%;
+  padding-right: 9px;
+}
+.unbundle-container .buttons >div:last-child{
+  padding-left: 9px;
+  width: 50%;
+}
+.unbundle-container .buttons button{
+  height: 45px;
+  font-size: 18px;
+}

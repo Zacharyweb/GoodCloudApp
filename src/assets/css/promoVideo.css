@@ -1,0 +1,317 @@
+html{
+	font-size: 16px;
+}
+body{
+	height: 100%;
+	background-color: #f5f5f5;
+	bottom:auto;
+}
+.navbar{
+	border: 1px solid #f5f5f5;
+}
+
+#myPromoVideo .my-video-zero,
+#myPromoVideo .my-drafts-zero{
+	position: absolute;
+	top:105px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+#myPromoVideo .my-drafts-zero{
+	background-color: #fff;
+	bottom:28px;
+}
+#myPromoVideo .my-video-zero .wihte-fill-block{
+	flex:1;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+#myPromoVideo .my-video-zero .btn-wrapper1{
+	display: flex;
+	padding:0 8px;
+	justify-content: space-between;
+	margin-bottom: 17px;
+}
+#myPromoVideo .my-video-zero .btn-wrapper1 .btn-green{
+	width: 48.75%;
+	font-size: 18px;
+	line-height: 45px;
+	text-align: center;
+}
+#myPromoVideo .my-video-zero  p{
+	margin-bottom: 25px;
+	text-align: center;
+	font-size: 14px;
+	color:#ccc;
+}
+#myPromoVideo .my-video-zero  p .iconfont{
+	font-size: 18px;
+	margin-left: 4px;
+}
+#myPromoVideo{
+	margin-top: 95px;
+}
+#myPromoVideo .my-videos>p,
+#myPromoVideo .my-drafts>p{
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color:#ccc;
+	margin-bottom: 0;
+}
+#myPromoVideo .my-videos>p .iconfont,
+#myPromoVideo .my-drafts>p .iconfont{
+	font-size: 18px;
+	margin-left: 4px;
+}
+#myPromoVideo .my-videos>ul{
+	padding:0 6px;
+}
+#myPromoVideo .my-videos>ul li{
+	position: relative;
+	background-color: #fff;
+	padding:0 10px;
+}
+#myPromoVideo .my-videos>ul li+li{
+	margin-top: 10px;
+}
+#myPromoVideo .my-videos>ul li p{
+	margin:0;
+	line-height: 1;
+}
+#myPromoVideo .my-videos>ul li h4{
+	margin:0;
+	line-height: 40px;
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+#myPromoVideo .my-videos>ul li h4 span{
+	max-width: 205px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+#myPromoVideo .my-videos>ul li .font-grey{
+	color: #c3c3c3;
+}
+#myPromoVideo .my-videos>ul li .delete{
+   position: absolute;
+   color: #9b9b9b;
+   font-size: 20px;
+   top:7px;
+   right: 10px;
+}
+#myPromoVideo .my-videos>ul li .video-content{
+	display: flex;
+	padding-bottom: 9px;
+	border-bottom:1px solid #e6e6e6;
+}
+#myPromoVideo .my-videos>ul li .video-poster-warpper{
+	position: relative;
+	height: 93px;
+	margin-right: 12px;
+}
+#myPromoVideo .my-videos>ul li .video-poster-warpper img{
+	width: 93px;
+	height: 93px;
+}
+#myPromoVideo .my-videos>ul li .video-poster-warpper p{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding:5px 4px;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #ccc;
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+#myPromoVideo .my-videos>ul li .video-content-text{
+	flex:1;
+	padding-top: 10px;
+	font-size: 14px;
+
+}
+#myPromoVideo .my-videos>ul li .video-content-text>p{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 23.21%;
+	color: #333;
+}
+#myPromoVideo .my-videos>ul li .video-content-text>p span{
+	color: #999;
+}
+#myPromoVideo .my-videos>ul li .video-content-text .last-edit-time{
+	margin-bottom: 10px;
+}
+#myPromoVideo .my-videos>ul li .video-content-text .create-time{
+	margin-bottom: 16px;
+}
+#myPromoVideo .my-videos>ul li .video-content-text>div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#myPromoVideo .my-videos>ul li .video-content-text .tags-block{
+	flex:1;
+	width: 100px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-right: 18px;
+	line-height: 1.2;
+	font-size: 13px;
+    color: #1a1a1a;
+}
+#myPromoVideo .my-videos>ul li .video-content-text>div .btn{
+	padding: 0;
+    width: 79px;
+	height: 29px;
+	font-size: 13px;
+	text-align: center;
+	line-height: 27px;
+	font-weight: bold;
+}
+
+#myPromoVideo .my-videos>ul li .video-content-text>div .btn-white-light{
+	border:1px solid #d6d6d6;
+	color: #4d4d4d;
+}
+#myPromoVideo .my-videos>ul li .video-actions{
+	display: flex;
+}
+#myPromoVideo .my-videos>ul li .video-actions p{
+	flex:1;
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 6px;
+	align-items: center;
+}
+#myPromoVideo .my-videos>ul li .video-actions p span{
+	color:#999;
+	font-size: 0.6875rem;
+}
+#myPromoVideo .my-videos>ul li .video-actions p .iconfont{
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+#myPromoVideo .my-drafts ul{
+	background-color: #fff;
+	padding: 4px 16px 38px 16px;
+}
+#myPromoVideo .my-drafts ul li{
+	padding-top: 13px;
+	padding-bottom: 12px;
+	border-bottom:1px solid #e6e6e6;
+	display: flex;
+}
+#myPromoVideo .my-drafts ul li p {
+	margin:0;
+}
+#myPromoVideo .my-drafts ul li .draft-poster{
+	width: 93px;
+	height: 93px;
+	margin-right: 13px;
+
+}
+#myPromoVideo .my-drafts ul li .draft-msg{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#myPromoVideo .my-drafts ul li .draft-msg .create-time{
+	padding-top: 9px;
+	padding-right: 58px;
+	font-size: 14px;
+	color:#333;
+	display: flex;
+	justify-content: space-between;
+}
+#myPromoVideo .my-drafts ul li .draft-msg .create-time span{
+	color: #999;
+}
+#myPromoVideo .my-drafts ul li .draft-msg  .btns-wrapper{
+	display: flex;
+	justify-content: flex-end;
+}
+#myPromoVideo .my-drafts ul li .draft-msg  .btns-wrapper .btn{
+	padding:0;
+	width: 69px;
+	height: 29px;
+	line-height: 29px;
+	border:1px solid #d6d6d6;
+	font-weight: bold;
+	color:#4d4d4d;
+}
+#myPromoVideo .my-drafts ul li .draft-msg  .btns-wrapper .btn+.btn{
+	margin-left: 9px;
+}
+
+#othersPromoVideo{
+	margin-top: 95px;
+	background-color: #fff;
+}
+#othersPromoVideo .top-tips{
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 14px;
+	line-height: 28px;
+	color:#ccc;
+	background-color: #f5f5f5;
+}
+#othersPromoVideo .top-tips .iconfont{
+	font-size: 18px;
+	margin-left: 4px;
+}
+#classification .shadow{ position: fixed!important;z-index: 1001;}
+#classification .cf-conetnt{ position: fixed!important;z-index: 1002;}
+
+/*MsgBox*/
+.MsgBox .MsgBox-mask{
+  position: fixed;
+}
+.MsgBox .MsgBox-content{
+  position: fixed;
+}
+
+.MsgBox.MsgBox-toast{
+	position: fixed;
+}
+
+.share-pane-slide-enter-active {
+    transition: all .3s ease;
+}
+.share-pane-slide-leave-active {
+    transition: all .2s ease;
+}
+.share-pane-slide-enter,
+.share-pane-slide-leave-active {
+    transform: translateY(100%);
+}
+.share-pane-mask{
+	position: fixed;
+	top:0;
+	bottom: 0;
+	left:0;
+	right: 0;
+	z-index: 1005;
+	background-color: rgba(0,0,0,0.7);
+}
+#classification .cf-conetnt{
+	position: fixed;
+}

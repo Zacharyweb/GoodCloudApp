@@ -1,0 +1,45 @@
+.tab-content>.tab-pane{ display: block}
+.cost-top{
+  margin: 10px;
+  padding: 16px;
+  background: #fff;
+  min-height: 195px;
+  border-radius: 2px;
+  webkit-box-shadow:  4px 4px 3px -3px rgba(0, 0, 0, .1);
+  -moz-box-shadow:  4px 4px 3px -3px rgba(0, 0, 0, .1);
+  box-shadow: 4px 4px 3px -3px rgba(0, 0, 0, .1);
+}
+.cost-top .cost-top-img{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+}
+.cost-top .cost-top-text{
+  color: #1A1A1A;
+  font-size: 15px;
+  line-height: 20px;
+}
+.cost-top .cost-top-text .icon{
+  color: #B3B3B3;
+  font-size: 16px;
+}
+.cost-buts{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+.cost-buts .cost-btn{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.btn-white{
+  background: #fff;
+  color: #37BC9B;
+}
+.btn-green{
+  border-radius: 0;
+}
